@@ -13,7 +13,7 @@ for (digit = 0 ; digit < 10; digit++)
 {
 putchar((digit % 10) + '0');
 }
-printf("\n");
+putchar('\n');
 return (0);
 }
 
