@@ -9,8 +9,10 @@ int main(void)
 {
 char lalphabets;
 
-for (lalphabets = 'z'; lalphabets <= 'a'; lalphabets--)
-putchar(lalphabets);
+for (lalphabets = 'z'; lalphabets >= 'a'; lalphabets--)
+{
+	putchar(lalphabets);
+}
 putchar('\n');
 return (0);
 }
