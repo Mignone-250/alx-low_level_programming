@@ -14,7 +14,7 @@ int main(void)
 	{
 		putchar((num % 10) + '0');
 	}
-	for (al = 'a'; al <= 'z'; al++)
+	for (al = 'a'; al <= 'f'; al++)
 	{
 		putchar(al);
 	}
